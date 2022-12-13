@@ -1,7 +1,7 @@
 # English_Study
 
 ```md
-1. abceed
+1. abceed  
 https://app.abceed.com/
 
 - [ ] 単語
@@ -9,7 +9,7 @@ https://app.abceed.com/
 - [ ] Part3
 - [ ] Part4
 
-2. 接頭・接尾語から品詞を見分ける
+2. 接頭・接尾語から品詞を見分ける  
 https://eigo-duke.com/tango/meisi.html
 
 - [ ] 品詞トレーンング
