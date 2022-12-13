@@ -27,11 +27,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set environment variables for dates
         run: CURRENT_DATE_TIME=$(TZ=UTC-9 date "+%Y-%m-%d")
-        working-directory: Note
+        working-directory: $GITHUB_WORKSPACE/Note
 
       - name: Create new md-file
         run: touch "$CURRENT_DATE_TIME.md"
 
-      - name: Copy　README.md 
+      - name: Copy　sample.md 
         run: cp sample.md $CURRENT_DATE_TIME.md
         working-directory: Note
