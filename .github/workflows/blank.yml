@@ -6,7 +6,7 @@ name: Create Todays File
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   schedule:
-    - cron:  '19 9,18 * * SUN-FRI'
+    - cron:  '22 9,18 * * SUN-FRI'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,10 +27,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set environment variables for dates
         run: CURRENT_DATE_TIME=$(TZ=UTC-9 date "+%Y-%m-%d")
-        working-directory: $GITHUB_WORKSPACE/Note
+        working-directory: Note
 
       - name: Create new md-file
         run: touch "$CURRENT_DATE_TIME.md"
+        working-directory: Note
+
 
       - name: Copy　sample.md 
         run: cp sample.md $CURRENT_DATE_TIME.md
