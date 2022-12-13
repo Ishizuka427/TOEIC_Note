@@ -33,5 +33,5 @@ jobs:
         run: touch "$CURRENT_DATE_TIME.md"
 
       - name: Copy　README.md 
-        run: cp ./README.md $CURRENT_DATE_TIME.md
+        run: cp sample.md $CURRENT_DATE_TIME.md
         working-directory: Note
