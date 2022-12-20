@@ -1,16 +1,10 @@
 ![workflow](https://github.com/Ishizuka427/English_Study/actions/workflows/blank.yml/badge.svg)
 
-## 1. abceed  
-https://app.abceed.com/
+# TOEIC_Note
 
-- [ ] 単語
-- [ ] Part2
-- [ ] Part3
-- [ ] Part4
+## What is this?
+This is a TOEIC study notebook.
 
-## 2. 接頭・接尾語から品詞を見分ける  
-https://eigo-duke.com/tango/meisi.html
-
-- [ ] 品詞トレーンング
-- [ ] Part5
-- [ ] Part6
+## About GitHub Actions
+Every morning, the bot copies the [sample.md](https://github.com/Ishizuka427/TOEIC_Note/blob/main/Note/sample.md) and creates a markdown file.  
+The title of the markdown file created is the date of the day.  
