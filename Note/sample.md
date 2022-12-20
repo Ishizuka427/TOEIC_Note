@@ -18,3 +18,5 @@ https://eigo-duke.com/tango/meisi.html
 ---
 
 ## Note
+eigo | ja
+-- | --
