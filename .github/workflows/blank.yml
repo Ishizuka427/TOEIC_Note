@@ -31,7 +31,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set environment variables for dates
         run: |
-          CURRENT_DATE_TIME=$(TZ=JST date "+%Y-%m-%d")
+          CURRENT_DATE_TIME=$(TZ=UTC date "+%Y-%m-%d")
           cd Note
           [[ -f $CURRENT_DATE_TIME.md ]] || cp sample.md $CURRENT_DATE_TIME.md
           
