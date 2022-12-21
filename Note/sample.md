@@ -15,6 +15,10 @@ https://eigo-duke.com/tango/meisi.html
 - [ ] Part5 x3
 - [ ] Part6 x3
 
+## 3. Speaking
+- [ ] Part2 録音＆練習
+- [ ] 英会話30分
+
 ---
 
 ## Note
